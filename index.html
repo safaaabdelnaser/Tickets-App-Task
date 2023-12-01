@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resposiveStyle.css">
+
+</head>
+
+<body>
+
+    <div>
+        <!-- header section -->
+        <section>
+            <header class="custom-container header-flex">
+                <p><img src="./images/arrow-right.png" />
+                    تذكرة رقم #2342
+                </p>
+                <p class="edit">
+                    <img src="./images/edit.png" />
+                    تعديل
+                </p>
+            </header>
+        </section>
+
+        <!-- statistics payment  section-->
+        <section class="container">
+            <!-- Chart -->
+            <div class="eighty-percent">
+                <!-- title of graph -->
+                <div>
+                    <h4>إحصائيات إستخدام القسيمة</h4>
+                    <div class="custom-container">
+                        <p>05 يوليو , 2023 - 05 أغسطس , 2023
+                            <img src="./images/Vector.png" alt="selector image" />
+                        </p>
+                        <select>
+                            <option value="year">سنويا</option>
+                            <option value="month">شهريا</option>
+                            <option value="day">يوميا</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- chart -->
+                <div>
+                    <div class="box">
+                        <span class="popup">
+                            <span class="popuptext" id="myPopup">250 استخدام </span>
+                        </span>
+                        <div class="indicative"></div>
+                        <div class="circle"></div>
+                     
+                        <svg width="796" height="124" viewBox="0 0 796 124" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#3D336E" stroke-width="2.51955">
+                            <g style="mix-blend-mode:multiply" opacity="0.33">
+                                <path
+                                    d="M45.091 56.1366C31.851 76.4094 9.777 82.3186 0.39502 82.7391V123.308H795.697V16.294C784.428 20.0139 757.839 36.7548 741.631 73.9589C721.371 120.464 690.838 90.9457 678.568 82.0346C666.298 73.1234 644.612 70.3387 631.2 71.7311C617.789 73.1234 596.673 76.1867 586.685 58.9213C576.698 41.656 566.616 30.4285 539.317 34.6941C515.063 35.5295 504.505 35.2511 493.091 26.8969C481.677 18.5427 447.72 -0.950455 423.465 22.9983C399.21 46.947 374.1 57.8074 347.847 25.5045C321.595 -6.7984 293.631 -2.89977 282.788 7.68222C271.944 18.2642 264.804 50.5204 238.674 60.0012C216.468 64.3089 203.495 71.3912 180.061 95.1228C149.814 125.755 131.552 98.743 117.57 65.8831C103.588 33.0233 61.6411 30.7955 45.091 56.1366Z"
+                                    fill="url(#paint0_linear_1_626)" />
+                            </g>
+                            <defs>
+                                <linearGradient id="paint0_linear_1_626" x1="398.046" y1="0.0704346" x2="398.046"
+                                    y2="216.839" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#8A74F9" />
+                                    <stop offset="0.479167" stop-color="#8A74F9" stop-opacity="0.263733" />
+                                    <stop offset="1" stop-color="#8A74F9" stop-opacity="0" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="custom-container chart-months">
+                        <div class="chart-month">يناير</div>
+                        <div class="chart-month">فبراير</div>
+                        <div class="chart-month">مارس</div>
+                        <div class="chart-month">ابرايل</div>
+                        <div class="chart-month">مايو</div>
+                        <div class="chart-month">يونيو</div>
+                        <div class="chart-month">يوليو</div>
+                        <div class="chart-month">اغسطس</div>
+                        <div class="chart-month">سيتمبر</div>
+                        <div class="chart-month">اكتوبر</div>
+                        <div class="chart-month">نوفمبر</div>
+                        <div class="chart-month">ديسمبر</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- offer Special Ticket -->
+            <div class="twenty-percent">
+                <!-- header of tickets -->
+                <div class="custom-container SpecialTicket ">
+                    <span>
+                        عرض التذكرة الخاصة بالفيلم
+                    </span>
+                    <span class="popup">
+                        <img src="./images/trash.png" alt="delete" />
+                        <span class="popuptext" id="myPopup">حذف</span>
+                    </span>
+                </div>
+
+
+                <div class="custom-container parentContainer">
+                    <div class="boxTicket">
+                        <!-- ticket code -->
+                        <div>
+                            <div class="ticket-code">
+                                <span>www.tazkty.com/473847</span>
+                                <img src="./images/Group.png" alt="copy" />
+                            </div>
+                            <p>فعال حتي 15 يوليو 2023</p>
+
+                            <img class="" src="./images/Vector 2.png" />
+                        </div>
+
+                        <!-- footer of tickets -->
+                        <div class="footerTicket">
+                            <span class="discount-info">
+                                <p>خصم</p>
+                                <p>
+                                    <span>25%</span>
+                                    <span class="share">
+                                        <span> <img src="./images/send-2.png" alt="telegram" /></span>
+                                        <span>مشاركة</span>
+                                    </span>
+                                </p>
+                            </span>
+                            <span class="qr-code">
+                                <img src="./images/qr_img 1.png" alt="scan code" />
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- seach tickets -->
+        <section class="custom-container searchticket">
+            <!-- header2 of Tickets -->
+            <div class="custom-container flex-container1 ">
+                <span>مبيعات التذاكر</span>
+                <div class="right-section">
+                    <!-- search bar -->
+                    <div class="search-container">
+                        <form action="/" method="post">
+                            <div class="search-box">
+                                <input type="text" placeholder="بحث عن ...." name="search">
+                                <button type="submit"><img src="./images/search-normal.png" alt="search" /></button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="custom-container group"><img src="./images/setting-4.png" /></div>
+                    <div class="custom-container group"><img src="./images/arrow-3.png" /></div>
+                </div>
+
+                <div class="left-section">
+                    <div class="custom-container toggle"><img src="./images/Toggle.svg" /><span>مفعلة</span></div>
+                    <div class="button-with-icon">
+                        <div class="text-wrapper">حجز تذكرة جديدة</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- data of tickets  -->
+        <section>
+            <div class="DataTickets">
+                <table class="tableTicket">
+                    <!-- title of table -->
+                    <tr>
+                        <th>#</th>
+                        <th>المستخدم</th>
+                        <th>رقم التذكرة</th>
+                        <th>قيمة التذكرة</th>
+                        <th>السينمات</th>
+                        <th>عدد الاشخاص</th>
+                        <th>عدد مرات الشراء</th>
+                        <th>التذكرة</th>
+                    </tr>
+                    <!-- ticket 1 -->
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <span>
+                                <div class="user-container">
+                                    <img src="./images/Image-30.png" alt="User Image" class="user-image" />
+                                    <div class="user-details">
+                                        <span class="user-name">أحمد محمود</span>
+                                        <span class="user-phone">01150701760</span>
+                                    </div>
+                                </div>
+                            </span>
+                        </td>
+                        <td>C-101</td>
+                        <td>$40</td>
+                        <td>سينما مصر , مول العرب , برج الأطنان , سرايا القبة ...</td>
+                        <td>1</td>
+                        <td>مرة واحدة</td>
+                        <td class="ticket-row">
+                            <span class="frame"><img src="./images/ticket-2.svg" /></span>
+                            <span>
+                                <div class="ticket-name">تذكرة رقم 45.pdf</div>
+                                <div class="ticket-type">9mb , PDF</div>
+                            </span>
+                            <span><img src="./images/Group 1000010390.svg" /></span>
+                        </td>
+
+                    </tr>
+                    <!-- ticket 2 -->
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <span>
+                                <div class="user-container">
+                                    <img src="./images/Image-30.png" alt="User Image" class="user-image" />
+                                    <div class="user-details">
+                                        <span class="user-name">أحمد محمود</span>
+                                        <span class="user-phone">01150701760</span>
+                                    </div>
+                                </div>
+                            </span>
+                        </td>
+                        <td>C-101</td>
+                        <td>$40</td>
+                        <td>سينما مصر , مول العرب , برج الأطنان , سرايا القبة ...</td>
+                        <td>1</td>
+                        <td>مرة واحدة</td>
+                        <td class="ticket-row">
+                            <span class="frame"><img src="./images/ticket-2.svg" /></span>
+                            <span>
+                                <div class="ticket-name">تذكرة رقم 45.pdf</div>
+                                <div class="ticket-type">9mb , PDF</div>
+                            </span>
+                            <span><img src="./images/Group 1000010390.svg" /></span>
+                        </td>
+
+                    </tr>
+                    <!-- ticket 3 -->
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <span>
+                                <div class="user-container">
+                                    <img src="./images/Image-31.png" alt="User Image" class="user-image" />
+                                    <div class="user-details">
+                                        <span class="user-name">محمد الغريب </span>
+                                        <span class="user-phone">01150701760</span>
+                                    </div>
+                                </div>
+                            </span>
+                        </td>
+                        <td>C-101</td>
+                        <td>$40</td>
+                        <td>سينما مصر , مول العرب , برج الأطنان , سرايا القبة ...</td>
+                        <td>1</td>
+                        <td>مرة واحدة</td>
+                        <td class="ticket-row">
+                            <span class="frame"><img src="./images/ticket-2.svg" /></span>
+                            <span>
+                                <div class="ticket-name">تذكرة رقم 45.pdf</div>
+                                <div class="ticket-type">9mb , PDF</div>
+                            </span>
+                            <span><img src="./images/Group 1000010390.svg" /></span>
+                        </td>
+
+                    </tr>
+                    <!-- ticket 4 -->
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <span>
+                                <div class="user-container">
+                                    <img src="./images/Image-31.png" alt="User Image" class="user-image" />
+                                    <div class="user-details">
+                                        <span class="user-name">محمد الغريب </span>
+                                        <span class="user-phone">01150701760</span>
+                                    </div>
+                                </div>
+                            </span>
+                        </td>
+                        <td>C-101</td>
+                        <td>$40</td>
+                        <td>سينما مصر , مول العرب , برج الأطنان , سرايا القبة ...</td>
+                        <td>1</td>
+                        <td>مرة واحدة</td>
+                        <td class="ticket-row">
+                            <span class="frame"><img src="./images/ticket-2.svg" /></span>
+                            <span>
+                                <div class="ticket-name">تذكرة رقم 45.pdf</div>
+                                <div class="ticket-type">9mb , PDF</div>
+                            </span>
+                            <span><img src="./images/Group 1000010390.svg" /></span>
+                        </td>
+
+                    </tr>
+
+                </table>
+                <div class="showData">
+                    <label for="showRows">عرض</label>
+                    <select id="showRows">
+                        <option value="2">2</option>
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="all">كل الصفوف</option>
+                    </select>
+                  <span>  من اصل 225</span>
+                    <span class="pagination">
+                        <a href="#">&#8249;</a>
+                        <a href="#" class="active">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">&#8250;</a>
+                    </span>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>

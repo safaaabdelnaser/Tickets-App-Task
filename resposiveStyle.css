@@ -1,0 +1,106 @@
+/* Extra small devices*/
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0px;
+  }
+  .container,
+  .flex-container1 {
+    flex-direction: column;
+  }
+  .header-flex p:nth-child(1) {
+    font-size: 15px;
+  }
+  .eighty-percent,
+  .twenty-percent {
+    width: 100%;
+    max-width: 100%;
+  }
+  .showData {
+    height: 100px;
+    width: 100%;
+    align-items: center;
+  }
+  input[type="text"] {
+    max-width: 100%;
+    height: 34px;
+  }
+  .chart-month {
+    flex: 1;
+    margin: 5px 0;
+  }
+  .showData select {
+    width: 50px;
+  }
+  .popup {
+    .popuptext {
+      width: 40px;
+    }
+  }
+  .ticket-code {
+    width: 195px;
+  }
+ .box{
+  .indicative {
+    height: 56px;
+  }
+  .circle{
+    left: 35.2%;
+  }
+ }
+}
+
+/* Small devices */
+@media only screen and (min-width: 600px) {
+
+  body {
+    margin: 10px;
+  }
+  .flex-container1,
+  .container {
+    flex-direction: column;
+  }
+  .showData {
+    height: 100px;
+  }
+  .box{
+    .indicative {
+      height: 85px;
+    }
+    .circle{
+      left: 35.3%;
+    }}
+}
+
+/* Medium devices*/
+@media only screen and (min-width: 768px) {
+  .flex-container1,
+  .container {
+    flex-direction: column;
+  }
+  .showData {
+    height: fit-content;
+  }
+  .box{
+    .indicative {
+      height: 115px;
+    }
+    .circle{
+      left: 36.2%;
+    }}
+}
+
+/* Large devices*/
+@media only screen and (min-width: 992px) {
+  .flex-container1,
+  .container {
+    flex-direction: row;
+  }
+  .box{
+    .indicative {
+      height: 112px;
+    }
+    .circle{
+      left: 36%;
+    }
+}
+}
